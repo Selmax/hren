@@ -15,7 +15,7 @@ public class Program {
 		
 		MyPanel p = new MyPanel();
 		w.add(p);
-		
+		// ó
 		w.addKeyListener(p);
 		w.revalidate();
 		
