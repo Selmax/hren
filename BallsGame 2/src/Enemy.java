@@ -4,7 +4,7 @@ import java.awt.Rectangle;
 import java.util.Random;
 
 
-public class Enemy {
+public class Enemy { //fsdfs
 
 	int hp;
 	int x, y;

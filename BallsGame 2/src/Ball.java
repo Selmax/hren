@@ -4,7 +4,8 @@ import java.awt.Rectangle;
 
 
 public class Ball {
-//
+// dad
+	
 	int hp;
 	float x, y;
 	float vx, vy;
@@ -15,7 +16,7 @@ public class Ball {
 	int r;
 	boolean visible;
 	Color c;
-	
+	// skjdkka
 	public Rectangle getCollider () {
 		return new Rectangle((int)x, (int)y, 2 * r, 2 * r);
 		
