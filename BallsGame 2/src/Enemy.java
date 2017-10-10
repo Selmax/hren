@@ -13,7 +13,7 @@ public class Enemy { //fsdfs
 	float h, w;
 	boolean visible;
 	Color c;
-	
+	//аывывы
 	public void update () {
 		
 		y = (int)(640 - h);
