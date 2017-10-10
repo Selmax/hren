@@ -8,7 +8,8 @@ import javax.swing.JOptionPane;
 
 
 public class Sprite {
-	double x = 500;
+	double x = 500; // Р§С‚Рѕ СЌС‚Рѕ?
+	
 	double y = 700;
 	double speed=0.5;
 	int vx = 1;
@@ -21,7 +22,7 @@ public class Sprite {
 			img = ImageIO.read(f);
 		
 		} catch (IOException e) {
-			JOptionPane.showMessageDialog(null, "Картинка "+fileName+"недоступна.\nПрограма будет закрыта.");
+			JOptionPane.showMessageDialog(null, "ГЉГ Г°ГІГЁГ­ГЄГ  "+fileName+"Г­ГҐГ¤Г®Г±ГІГіГЇГ­Г .\nГЏГ°Г®ГЈГ°Г Г¬Г  ГЎГіГ¤ГҐГІ Г§Г ГЄГ°Г»ГІГ .");
 		    System.exit(0);
 		}
     }
